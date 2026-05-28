@@ -31,7 +31,7 @@ def normalizar(texto):
 def limpar(texto):
 
     texto = re.sub(
-        r"\\s+",
+        r"\s+",
         " ",
         texto
     )
@@ -72,10 +72,33 @@ with open(
 
 
 # =========================
+# BLOQUEADOS
+# =========================
+
+try:
+
+    with open(
+        "bloqueados.txt",
+        encoding="utf-8"
+    ) as f:
+
+        bloqueados = [
+            x.strip().lower()
+            for x in f
+            if x.strip()
+        ]
+
+except Exception:
+
+    bloqueados = []
+
+
+# =========================
 # SCRAPING
 # =========================
 
 noticias = []
+
 vistos = set()
 
 lixo = [
@@ -87,7 +110,11 @@ lixo = [
     "instagram",
     "twitter",
     "youtube",
-    "whatsapp"
+    "whatsapp",
+    "telegram",
+    "cookies",
+    "termos de uso",
+    "política de privacidade"
 ]
 
 for site in sites:
@@ -116,6 +143,7 @@ for site in sites:
 
         for item in candidatos:
 
+            # alguns sites usam <a> diretamente
             if item.name == "a":
 
                 link_tag = item
@@ -134,11 +162,13 @@ for site in sites:
                 link_tag.get_text()
             )
 
+            # evita lixo pequeno
             if len(titulo) < 12:
                 continue
 
             titulo_lower = titulo.lower()
 
+            # remove lixo comum
             if any(
                 x in titulo_lower
                 for x in lixo
@@ -166,8 +196,24 @@ for site in sites:
                 link_tag["href"]
             )
 
+            if not link.startswith("http"):
+                continue
+
+            # =========================
+            # BLOQUEADOS
+            # =========================
+
+            link_lower = link.lower()
+
+            if any(
+                bloqueado in link_lower
+                for bloqueado in bloqueados
+            ):
+                continue
+
             chave = f"{titulo}_{link}"
 
+            # remove duplicidade
             if chave in vistos:
                 continue
 
@@ -186,12 +232,29 @@ for site in sites:
 
 
 # =========================
-# HTML
+# ORDENA
+# =========================
+
+noticias.sort(
+    key=lambda x: (
+        x["fonte"],
+        x["titulo"]
+    )
+)
+
+
+# =========================
+# DATA
 # =========================
 
 data = datetime.now().strftime(
-    "%d/%m/%Y %H:%M"
+    "%d/%m/%Y %H:%M:%S"
 )
+
+
+# =========================
+# HTML
+# =========================
 
 html = f"""
 <!DOCTYPE html>
@@ -232,6 +295,11 @@ body {{
     margin-bottom: 10px;
 }}
 
+.data {{
+    color: #9ca3af;
+    margin-bottom: 30px;
+}}
+
 a {{
     color: white;
     text-decoration: none;
@@ -250,7 +318,9 @@ a:hover {{
 
 <h1>Radar Psicologia</h1>
 
-<p>Atualizado em {data}</p>
+<div class="data">
+Atualizado em {data}
+</div>
 """
 
 for noticia in noticias[:50]:
@@ -290,4 +360,3 @@ with open(
     f.write(html)
 
 print(f"Total: {len(noticias)}")
-
