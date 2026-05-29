@@ -74,7 +74,7 @@ a:hover {
 <h1>Radar Psicologia</h1>
 
 <div class="data">
-Atualizado em 29/05/2026 20:02:15 (Horário de Brasília)
+Atualizado em 29/05/2026 20:08:04 (Horário de Brasília)
 </div>
 
 <div id="noticias">
@@ -170,25 +170,6 @@ Atualizado em 29/05/2026 20:02:15 (Horário de Brasília)
         <a href="http://rbp.org.br/">
 
             Revista Brasileira de Psicanálise
-
-        </a>
-
-    </div>
-    
-    <div class="card">
-
-        <div class="fonte">
-            https://gauchazh.clicrbs.com.br/
-        </div>
-
-        <div class="termo">
-            termo encontrado:
-            saude mental
-        </div>
-
-        <a href="https://gauchazh.clicrbs.com.br/economia/conteudo-de-marca/2026/05/saude-mental-vira-diferencial-de-retencao-de-talentos-no-mercado-de-trabalho-cmpmydquv00qc011mxzimen69.html">
-
-            Conteúdo para Marcas Saúde mental vira diferencial de retenção de talentos no mercado de trabalho RBS Conteúdo para Marcas
 
         </a>
 
@@ -2008,12 +1989,18 @@ const container = document.getElementById("noticias");
 const conteudo = document.getElementById("conteudo");
 
 let posicao = 0;
+let pausado = false;
 
 /*
 Rolagem contínua vertical
+Clique para pausar/continuar
 */
 
 setInterval(() => {
+
+    if (pausado) {
+        return;
+    }
 
     posicao += 1;
 
@@ -2029,7 +2016,20 @@ setInterval(() => {
 
 }, 14);
 
-</script>
 
+/*
+Clique em qualquer notícia
+ou na área de notícias
+para pausar/continuar
+*/
+
+container.addEventListener(
+    "click",
+    () => {
+        pausado = !pausado;
+    }
+);
+
+</script>
 </body>
 </html>
