@@ -346,7 +346,7 @@ Atualizado em {data} (Horário de Brasília)
 </div>
 """
 
-for noticia in noticias[:50]:
+for noticia in noticias[:500]:
 
     html += f"""
     <div class="card">
