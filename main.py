@@ -395,12 +395,18 @@ const container = document.getElementById("noticias");
 const conteudo = document.getElementById("conteudo");
 
 let posicao = 0;
+let pausado = false;
 
 /*
 Rolagem contínua vertical
+Clique para pausar/continuar
 */
 
 setInterval(() => {
+
+    if (pausado) {
+        return;
+    }
 
     posicao += 1;
 
@@ -416,8 +422,21 @@ setInterval(() => {
 
 }, 14);
 
-</script>
 
+/*
+Clique em qualquer notícia
+ou na área de notícias
+para pausar/continuar
+*/
+
+container.addEventListener(
+    "click",
+    () => {
+        pausado = !pausado;
+    }
+);
+
+</script>
 </body>
 </html>
 """
