@@ -22,7 +22,7 @@ inteligência
 motivação
 personalidade
 desenvolvimento
-clínica,
+clínica
 psicometria
 diagnóstico
 anamnese
@@ -63,7 +63,6 @@ inteligência
 motivação
 personalidade
 desenvolvimento
-social
 clínica
 psicometria
 diagnóstico
@@ -101,7 +100,6 @@ titchner
 Rogers
 Maslow
 Frankl
-May
 Allport
 Cattell
 Eysenck
@@ -137,7 +135,6 @@ kohlberg
 erikson
 bowlby
 ainsworth
-main
 fonagy
 target
 mentalização
@@ -179,12 +176,7 @@ consciência
 atenção
 concentração
 orientação
-memória de trabalho
-memória episódica
-memória semântica
-memória procedural
-memória implícita
-memória explícita
+memória 
 amnésia
 hipermnésia
 paramnésia
@@ -199,7 +191,6 @@ fuga dissociativa
 amnésia dissociativa
 transe
 hipnose
-sugestão
 sugestionabilidade
 catarse
 ab-reação
@@ -225,15 +216,12 @@ enquadre
 setting
 contrato terapêutico
 honorários
-faltas
 sigilo
-ética
 código de ética
 bioética
 autonomia
 beneficência
 não-maleficência
-justiça
 alteridade
 subjetividade
 intersubjetividade
@@ -270,7 +258,7 @@ julgamento
 tomada de decisão
 heurística
 viés
-viés cognitivo
+cognitivo
 dissonância cognitiva
 consonância
 atitude
@@ -341,7 +329,6 @@ dismorfofobia
 anorexia
 bulimia
 compulsão alimentar
-pica
 ruminação
 insônia
 hipersonia
@@ -488,7 +475,6 @@ neurônio
 sinapse
 neurotransmissor
 córtex
-lobo
 frontal
 parietal
 occipital
@@ -570,7 +556,6 @@ hiperpolarização
 refratário
 condução
 saltatória
-contínua
 EPSP
 IPSP
 espacial
@@ -661,7 +646,6 @@ lewy
 vascular
 frontotemporal
 esclerose
-lateral
 amiotrófica
 múltipla
 epilepsia
@@ -706,11 +690,8 @@ estimulação
 magnética
 transcraniana
 TMS
-corrente
-contínua
 tDCS
 DBS
-profunda
 psicofarmacologia
 psicofármaco
 ansiolítico
@@ -807,8 +788,6 @@ apraxia
 ideomotora
 ideatória
 construtiva
-marcha
-fala
 amnésia
 anterógrada
 retrógrada
@@ -860,7 +839,6 @@ sinatogênese
 mielinização tardia
 córtex pré-frontal
 funções executivas
-planejamento
 flexibilidade cognitiva
 controle inibitório
 tomada de decisão
@@ -874,11 +852,6 @@ pré-motor
 motor suplementar
 lobo occipital
 córtex visual
-V1
-V2
-V4
-MT
-V5
 via dorsal
 via ventral
 lobo temporal
@@ -954,8 +927,6 @@ setting
 aliança
 terapêutica
 empatia
-escuta
-escuta qualificada
 neutralidade
 acolhimento
 demanda
