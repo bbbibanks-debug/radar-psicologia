@@ -514,7 +514,6 @@ gânglios
 base
 estriado
 putâmen
-globo
 pálido
 núcleo
 caudado
@@ -563,8 +562,6 @@ neurotransmissão
 recaptação
 degradação
 enzimática
-MAO
-COMT
 acetilcolina
 colinérgico
 dopamina
@@ -639,8 +636,6 @@ demência
 alzheimer
 parkinson
 huntington
-pick
-corpos
 lewy
 vascular
 frontotemporal
@@ -665,22 +660,11 @@ estrutural
 funcional
 fMRI
 tomografia
-computadorizada
-PET
-scan
-SPECT
 eletroencefalograma
-EEG
-potenciais
-evocados
 magnetoencefalografia
-MEG
 estimulação
 magnética
 transcraniana
-TMS
-tDCS
-DBS
 psicofarmacologia
 psicofármaco
 ansiolítico
@@ -688,9 +672,6 @@ antidepressivo
 estimulação
 magnética
 transcraniana
-TMS
-tDCS
-DBS
 psicofarmacologia
 psicofármaco
 ansiolítico
@@ -726,12 +707,7 @@ hepático
 excreção
 renal
 citocromo
-P450
-IMAO
 tricíclico
-ISRS
-ISRSN
-IRND
 benzodiazepínico
 barbitúrico
 lítio
@@ -798,14 +774,9 @@ confabulação
 demência
 declínio
 cognitivo
-leve
-DCL
 afasia progressiva primária
-APP
 paralisia supranuclear progressiva
-PSP
 atrofia multissistêmica
-AMS
 coreia
 atetose
 balismo
@@ -1157,7 +1128,6 @@ instalação de recursos
 lugar seguro
 cognição negativa
 cognição positiva
-VOC
 SUD
 processamento de memórias traumáticas
 terapia baseada na mentalização
@@ -1192,7 +1162,6 @@ comportamento
 consequência
 tríplice contingência
 operante verbal
-mando
 tato
 ecoico
 intraverbal
@@ -1207,10 +1176,6 @@ registro ABC
 intervenção baseada na função
 extinção de comportamento
 reforço diferencial
-DRO
-DRA
-DRI
-DRL
 generalização de estímulos
 generalização de respostas
 manutenção do comportamento
@@ -1244,7 +1209,6 @@ retorno do recalcado
 censura
 consciente
 pré-consciente
-ego
 superego
 pulsão
 pulsão de vida
