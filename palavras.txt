@@ -65,15 +65,7 @@ personalidade
 desenvolvimento
 social
 clínica
-organizacional
-educacional
-jurídica
-hospitalar
-esporte
-trânsito
 psicometria
-testes
-avaliação
 diagnóstico
 anamnese
 entrevista
@@ -250,7 +242,6 @@ self
 si-mesmo
 ego
 superego
-id
 inconsciente
 pré-consciente
 consciente
@@ -998,7 +989,6 @@ transformação
 mudança
 cura
 remissão
-alta
 alta terapêutica
 interrupção
 abandono
@@ -1155,7 +1145,6 @@ mente racional
 análise em cadeia
 consultoria de equipe
 terapia de aceitação e compromisso
-ACT
 Steven Hayes
 flexibilidade psicológica
 desfusão cognitiva
@@ -1242,7 +1231,6 @@ mudança comportamental
 união empática
 acomodação tolerante
 análise do comportamento aplicada
-ABA
 espectro autista
 contingência de reforço
 antecedente
@@ -1447,9 +1435,6 @@ metáfora
 metonímia
 desejo
 desejo do Outro
-falta
-falta a ser
-objeto a
 causa do desejo
 mais-de-gozar
 gozo
