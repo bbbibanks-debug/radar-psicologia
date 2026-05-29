@@ -323,6 +323,19 @@ body {{
     margin-bottom: 30px;
 }}
 
+#noticias {{
+    height: 85vh;
+    overflow: hidden;
+    position: relative;
+}}
+
+#conteudo {{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}}
+
 a {{
     color: white;
     text-decoration: none;
@@ -344,9 +357,12 @@ a:hover {{
 <div class="data">
 Atualizado em {data} (Horário de Brasília)
 </div>
+
+<div id="noticias">
+<div id="conteudo">
 """
 
-for noticia in noticias[:500]:
+for noticia in noticias[:1000]:
 
     html += f"""
     <div class="card">
@@ -370,6 +386,38 @@ for noticia in noticias[:500]:
     """
 
 html += """
+</div>
+</div>
+
+<script>
+
+const container = document.getElementById("noticias");
+const conteudo = document.getElementById("conteudo");
+
+let posicao = 0;
+
+/*
+Rolagem contínua vertical
+*/
+
+setInterval(() => {
+
+    posicao += 1;
+
+    if (
+        posicao >
+        (conteudo.scrollHeight - container.clientHeight)
+    ) {
+        posicao = 0;
+    }
+
+    conteudo.style.transform =
+        `translateY(-${posicao}px)`;
+
+}, 14);
+
+</script>
+
 </body>
 </html>
 """
