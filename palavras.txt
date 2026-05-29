@@ -489,7 +489,6 @@ craniano
 raquidiano
 sistema
 nervoso
-central
 periférico
 somático
 autônomo
