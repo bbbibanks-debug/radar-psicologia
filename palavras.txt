@@ -475,14 +475,12 @@ parietal
 occipital
 temporal
 cerebelo
-tronco
 encefálico
 medula
 espinhal
 nervo
 craniano
 raquidiano
-sistema
 nervoso
 periférico
 somático
@@ -506,7 +504,6 @@ pineal
 melatonina
 tálamo
 gânglios
-base
 estriado
 putâmen
 pálido
@@ -676,7 +673,6 @@ modulador
 alostérico
 afinidade
 eficácia
-potência
 tolerância
 farmacológica
 dependência
@@ -737,9 +733,6 @@ global
 transcortical
 anômica
 agnosia
-visual
-auditiva
-tátil
 prosopagnosia
 simultanagnosia
 anosognosia
@@ -779,10 +772,6 @@ sialorréia
 disartria
 disfagia
 neurodesenvolvimento
-tubo neural
-crista neural
-proliferação
-celular
 migração
 diferenciação
 sinatogênese
@@ -809,7 +798,6 @@ córtex auditivo
 área de Wernicke
 giro fusiforme
 processamento de faces
-sistema límbico
 circuito de Papez
 amígdala basolateral
 núcleo central da amígdala
@@ -859,7 +847,6 @@ influxo de cálcio
 apoptose neuronal
 psicoterapia
 clínica
-atendimento
 consultório
 paciente
 cliente
@@ -868,7 +855,6 @@ psicoterapeuta
 sessão
 processo
 intervenção
-técnica
 manejo
 manejo clínico
 enquadre
@@ -878,7 +864,6 @@ terapêutica
 empatia
 neutralidade
 acolhimento
-demanda
 queixa
 queixa principal
 sintoma
@@ -890,7 +875,6 @@ bem-estar
 qualidade de vida
 autoconhecimento
 transformação
-mudança
 cura
 remissão
 alta terapêutica
@@ -973,8 +957,7 @@ grupoterapia
 institucional
 comunitária
 telepsicologia
-terapia online
-atendimento remoto
+terapia 
 síncrono
 assíncrono
 terapia cognitivo-comportamental
@@ -995,147 +978,50 @@ personalização
 raciocínio emocional
 imperativos
 rotulação
-filtro mental
-pensamento dicotômico
-tudo ou nada
-desqualificação do positivo
-generalização excessiva
-reestruturação cognitiva
-questionamento socrático
-descoberta guiada
-seta descendente
-registro de pensamentos
-RPD
-cartão de enfrentamento
-experimentos comportamentais
-ativação comportamental
-monitoramento de atividades
-hierarquia de tarefas
+desqualificação 
+reestruturação 
+questionamento
+pensamentos
+ enfrentamento
+experimentos 
 exposição
-exposição in vivo
-exposição imaginária
-exposição interoceptiva
-prevenção de respostas
-dessensibilização sistemática
-relaxamento progressivo
-Jacobson
-respiração diafragmática
-treino de habilidades sociais
-THS
+relaxamento
 assertividade
-role-play
-ensaio comportamental
 modelagem
 feedback
 reforçamento
-economia de fichas
-contrato de contingências
-resolução de problemas
-terapia comportamental dialética
-DBT
-Marsha Linehan
-regulação emocional
-tolerância ao mal-estar
-efetividade interpessoal
+resolução 
+regulação 
+tolerância 
+mal-estar
+interpessoal
 mindfulness
 atenção plena
-aceitação
-aceitação radical
 validação
-estratégias dialéticas
-mente sábia
-mente emocional
-mente racional
-análise em cadeia
-consultoria de equipe
-terapia de aceitação e compromisso
-Steven Hayes
-flexibilidade psicológica
+mente
+aceitação
+compromisso
 desfusão cognitiva
 aceitação
-momento presente
-self como contexto
-valores
-ação comprometida
-hexaflex
-matriz da ACT
-terapia focada nos esquemas
-Jeffrey Young
-esquemas iniciais desadaptativos
-EID
-domínios de esquemas
-desconexão e rejeição
-autonomia e desempenho prejudicados
-limites prejudicados
-orientação para o outro
-supervigilância e inibição
-modos esquemáticos
-modo criança
-modo progenitor disfuncional
-modo enfrentamento desadaptativo
-modo adulto saudável
-reparentalidade vivencial
-confronto empático
-técnicas vivenciais
-cadeira vazia
-imaginação guiada
-reconfiguração de esquemas
-terapia focada nas emoções
-Leslie Greenberg
-emoções primárias adaptativas
-primárias desadaptativas
-secundárias
-instrumentais
-transformação emocional
-esquemas emocionais
-marcadores de tarefas
-resolução de conflitos internos
-processamento experiencial
-terapia de dessensibilização e reprocessamento por movimentos bilaterais
-EMDR
-Francine Shapiro
-processamento adaptativo de informação
-PAI
+esquema
+desconexão
+rejeição
+autonomia
+supervigilância
+inibição
+imaginação
+resolução de conflitos
 trauma
-microtrauma
-macrotrauma
-movimento ocular
-estimulação bilateral tátil
-estimulação auditiva
+estimulação
 dessensibilização
-instalação de recursos
-lugar seguro
-cognição negativa
-cognição positiva
-SUD
+cognição
 processamento de memórias traumáticas
-terapia baseada na mentalização
-MBT
-Anthony Bateman
-Peter Fonagy
-função reflexiva
-hipomentalização
-hipermentalização
-postura de não-saber
-foco na mentalização
-terapia focada na compaixão
-Paul Gilbert
-sistema de ameaça
-sistema de impulso
-sistema de acalento
+terapia 
 autocompaixão
-crítico interno
-cadeira autocrítica
-carta compassiva
-terapia comportamental integrativa de casal
-IBCT
-aceitação emocional
-mudança comportamental
-união empática
-acomodação tolerante
-análise do comportamento aplicada
+terapia comportamental 
+aceitação 
+análise do comportamento 
 espectro autista
-contingência de reforço
 antecedente
 comportamento
 consequência
@@ -1478,7 +1364,6 @@ script de vida
 análise transacional
 Berne
 estados de ego
-pai
 adulto
 criança
 transações
