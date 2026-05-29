@@ -548,47 +548,31 @@ ponte
 mesencéfalo
 teto
 tegmento
-substância
-negra
-cinzenta
-branca
 mielina
-bainha
-nó
 ranvier
 axônio
 dendrito
-soma
 corpo celular
-cone
-implantação
 vesícula
 sináptica
 fenda
 receptor
 ionotrópico
 metabotrópico
-canal
 iônico
 sódio
 potássio
 cálcio
 cloro
-bomba
-potencial
-ação
-repouso
 despolarização
 repolarização
 hiperpolarização
-período
 refratário
 condução
 saltatória
 contínua
 EPSP
 IPSP
-soma
 espacial
 temporal
 neurotransmissão
@@ -1246,14 +1230,7 @@ treino de tentativas discretas
 DTT
 ensino naturalístico
 análise de tarefas
-esvaecimento
 fading
-encadeamento
-encadeamento para frente
-encadeamento para trás
-dica
-prompt
-esvaecimento de dica
 avaliação funcional do comportamento
 observação direta
 registro ABC
@@ -1297,7 +1274,6 @@ retorno do recalcado
 censura
 consciente
 pré-consciente
-id
 ego
 superego
 pulsão
