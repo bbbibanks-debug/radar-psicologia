@@ -81,7 +81,6 @@ operante
 respondente
 reforço
 punição
-extinção
 modelagem
 discriminação
 generalização
@@ -138,7 +137,6 @@ fonagy
 target
 mentalização
 apego
-seguro
 ansioso
 evitativo
 desorganizado
@@ -150,7 +148,6 @@ ansiedade
 depressão
 fobia
 pânico
-obsessão
 compulsão
 mania
 hipomania
@@ -418,7 +415,6 @@ TDAH
 hiperatividade
 deficit de atenção
 autismo
-TEA
 asperger
 savant
 inteligência limite
@@ -553,7 +549,6 @@ serotonina
 serotonérgico
 histamina
 histaminérgico
-GABA
 gabaérgico
 glutamato
 glutamatérgico
@@ -622,9 +617,7 @@ vascular
 frontotemporal
 esclerose
 amiotrófica
-múltipla
 epilepsia
-crise
 convulsiva
 tônico-clônica
 ausência
@@ -683,53 +676,11 @@ biodisponibilidade
 farmacocinética
 farmacodinâmica
 metabolismo
-hepático
-excreção
-renal
-citocromo
-tricíclico
-benzodiazepínico
-barbitúrico
-lítio
-valproato
-carbamazepina
-lamotrigina
-topiramato
-gabapentina
-pregabalina
-haloperidol
-clorpromazina
-flufenazina
-tioridazina
-risperidona
-olanzapina
-quetiapina
-aripiprazol
-ziprasidona
-clozapina
-sulpirida
-amissulprida
-metilfenidato
-lisdexanfetamina
-modafinila
-atomoxetina
-donepezila
-rivastigmina
-galantamina
-memantina
-melatonina
-agomelatina
-buspirona
-zolpidem
-zopiclona
-zaleplona
-eszopiclona
 neuropsicologia
 afasia
 broca
 wernicke
 condução
-global
 transcortical
 anômica
 agnosia
@@ -742,8 +693,6 @@ ideatória
 construtiva
 amnésia
 anterógrada
-retrógrada
-global transitória
 psicogênica
 lacunar
 síndrome de Korsakoff
@@ -852,7 +801,6 @@ paciente
 cliente
 terapeuta
 psicoterapeuta
-sessão
 processo
 intervenção
 manejo
@@ -914,7 +862,7 @@ triagem clínica
 plantão psicológico
 urgência
 emergência
-intervenção em crise
+intervenção 
 ideação suicida
 plano de segurança
 manejo de risco
@@ -1024,7 +972,6 @@ análise do comportamento
 espectro autista
 antecedente
 comportamento
-consequência
 intervenção
 engajamento
 motivação
@@ -1190,213 +1137,74 @@ neutralidade analítica
 abstinência
 regra da abstinência
 transferência
-transferência positiva
-transferência negativa
 contratransferência
-amor de transferência
 resistência
-resistência do ego
-resistência do id
-resistência do superego
 elaboração
 perlaboração
 interpretação
-mutativa
-construção em análise
-insight
-repetição
-compulsão à repetição
-acting in
-setting analítico
-divã
-poltrona
-frequência
-sessões
-interrupção
-término da análise
-análise finita e infinita
-contratransferência corporal
+compulsão
+setting
+contratransferência 
 psicossomática
-escola de Paris
 Marty
-pensamento operatório
-essencial
-alexitimia
-desafeção
-neurose atual
-neurose de angústia
 neurastenia
 hipocondria
-cura analítica
-retificação subjetiva
 chiste
 ato falho
 lapso
-esquecimento de nomes próprios
-psicopatologia da vida cotidiana
-interpretação dos sonhos
-conteúdo manifesto
-conteúdo latente
-trabalho do sonho
-condensação
-deslocamento
+esquecimento 
+psicopatologia 
+sonhos
 simbolização
-consideração de figurabilidade
-elaboração secundária
-restos diurnos
-umbigo do sonho
 pesadelo
-sonho de angústia
+sonho
+angústia
 metapsicologia
-ponto de vista dinâmico
-econômico
-tópico
-estrutural
-primeira tópica
-segunda tópica
-energia livre
-energia ligada
-princípio do prazer
-princípio da realidade
-processo primário
-processo secundário
-constância
-nirvana
+tópica
+energia 
+prazer
 desamparo
-hilflosigkeit
-dor psíquica
-ferida narcísica
-trauma precoce
-neuropsicose de defesa
-recalque primário
-recalque secundário
-recalque propriamente dito
-contratransferência inconsciente
-acting out na transferência
-cena primária
-sedução infantil
-teoria da sedução
-fantasia de sedução
-proton pseudos
-mentira histeria
-aprés-coup
-nachträglichkeit
-posterioridade
+dor 
+psíquica
+narcísica
+recalque
+acting out
+transferência
+sedução
+fantasia
+sedução
+mentira
 resignificação
-só-depois
-trauma em dois tempos
-escolha da neurose
-ganho primário da doença
-ganho secundário
-reação terapêutica negativa
-RTN
-sentimento inconsciente de culpa
-severidade do superego
-imperativo do superego
-gozo do superego
+neurose
 masoquismo
-masoquismo erógeno
-masoquismo feminino
-masoquismo moral
 sadismo
-ambivalência afetiva
-fusão pulsional
-defusão pulsional
-desintrincação das pulsões
-sublimação da pulsão
-destino das pulsões
-reversão ao oposto
-retorno em direção ao próprio eu
-amor e ódio
-agressividade passiva
-narcisismo das pequenas diferenças
-idealização do objeto
-identificação com o agressor
+ambivalência
+sublimação
+pulsão
+amor
+ódio
+agressividade
+narcisismo 
+agressor
 Anna Freud
 mecanismos de defesa
 altruísmo
-intelectualização
-ascese
-introjeção do agressor
-psicologia do ego
-Hartmann
-Kris
 Loewenstein
-área livre de conflitos do ego
-adaptação
-funções autônomas do ego
-psicodinâmica breve
-psicoterapia de orientação analítica
-POA
-Malan
-Fiorini
-focalização
-planejamento terapêutico
-critério de elegibilidade
-aliança de trabalho
-insight intelectual
-insight emocional
-experiência emocional corretiva
-Alexander
-psicoterapia existencial
-Yalom
-isolamento existencial
-angústia da morte
-falta de sentido
-liberdade e responsabilidade
-análise do caráter
-Wilhelm Reich
-couraça 
-cervical
-torácico
-diafragmático
-abdominal
-pélvico
-orgônio
-vegetoterapia
-economia sexual
-contratransferência complementar
-concordante
-Racker
-neurose de destino
-destino trágico
-script de vida
-análise transacional
-Berne
-estados de ego
-adulto
-criança
-transações
-jogos psicológicos
-guião de vida
-self dinâmico
-dissociação psicodinâmica
-trauma relacional
-dissociação estrutural
-Janet
-subpersonalidades
-constelação de complexos
-imaginação ativa
-tipologia junguiana
+psicoterapia 
+psicoterapia 
+isolamento 
+existencial
+angústia
+liberdade
+responsabilidade
+contratransferência 
+imaginação
 extroversão
 introversão
-funções cardinais
-pensamento
-sentimento
 sensação
 intuição
 individuação
-self junguiano
-mandalas
-alquimia e inconsciente
-ampliação de símbolos
-método catártico
+inconsciente
 Breuer
-estudos sobre a histeria
-Anna O.
-cura pela fala
-talking cure
-limpando a chaminé
-hipnose catártica
-ab-reação emocional
-trauma psíquico original
+histeria
+
