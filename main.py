@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from datetime import datetime
-from zoneinfo import ZoneInfo
 import unicodedata
 import re
 
@@ -38,6 +37,24 @@ def limpar(texto):
     )
 
     return texto.strip()
+
+
+def corrigir_texto(texto):
+
+    try:
+
+        if "Ã" in texto or "Â" in texto:
+
+            texto = texto.encode(
+                "latin1"
+            ).decode(
+                "utf-8"
+            )
+
+    except Exception:
+        pass
+
+    return texto
 
 
 # =========================
@@ -130,6 +147,11 @@ for site in sites:
             timeout=15
         )
 
+        response.raise_for_status()
+
+        if response.apparent_encoding:
+            response.encoding = response.apparent_encoding
+
         soup = BeautifulSoup(
             response.text,
             "lxml"
@@ -144,7 +166,6 @@ for site in sites:
 
         for item in candidatos:
 
-            # alguns sites usam <a> diretamente
             if item.name == "a":
 
                 link_tag = item
@@ -159,17 +180,20 @@ for site in sites:
             if not link_tag:
                 continue
 
-            titulo = limpar(
-                link_tag.get_text()
+            titulo = corrigir_texto(
+                limpar(
+                    link_tag.get_text(
+                        separator=" ",
+                        strip=True
+                    )
+                )
             )
 
-            # evita lixo pequeno
             if len(titulo) < 12:
                 continue
 
             titulo_lower = titulo.lower()
 
-            # remove lixo comum
             if any(
                 x in titulo_lower
                 for x in lixo
@@ -200,10 +224,6 @@ for site in sites:
             if not link.startswith("http"):
                 continue
 
-            # =========================
-            # BLOQUEADOS
-            # =========================
-
             link_lower = link.lower()
 
             if any(
@@ -214,7 +234,6 @@ for site in sites:
 
             chave = f"{titulo}_{link}"
 
-            # remove duplicidade
             if chave in vistos:
                 continue
 
@@ -245,13 +264,11 @@ noticias.sort(
 
 
 # =========================
-# DATA/HORA BRASÍLIA
+# DATA
 # =========================
 
-data = datetime.now(
-    ZoneInfo("America/Sao_Paulo")
-).strftime(
-    "%d/%m/%Y às %H:%M:%S (Horário de Brasília)"
+data = datetime.now().strftime(
+    "%d/%m/%Y %H:%M:%S"
 )
 
 
@@ -336,7 +353,7 @@ for noticia in noticias[:50]:
         </div>
 
         <div class="termo">
-            Termo encontrado:
+            termo encontrado:
             {noticia['termo']}
         </div>
 
@@ -362,4 +379,4 @@ with open(
 
     f.write(html)
 
-print(f"Total de notícias encontradas: {len(noticias)}")
+print(f"Total: {len(noticias)}")
