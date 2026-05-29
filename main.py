@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from datetime import datetime
+from zoneinfo import ZoneInfo
 import unicodedata
 import re
 
@@ -244,11 +245,13 @@ noticias.sort(
 
 
 # =========================
-# DATA
+# DATA/HORA BRASÍLIA
 # =========================
 
-data = datetime.now().strftime(
-    "%d/%m/%Y %H:%M:%S"
+data = datetime.now(
+    ZoneInfo("America/Sao_Paulo")
+).strftime(
+    "%d/%m/%Y às %H:%M:%S (Horário de Brasília)"
 )
 
 
@@ -333,7 +336,7 @@ for noticia in noticias[:50]:
         </div>
 
         <div class="termo">
-            termo encontrado:
+            Termo encontrado:
             {noticia['termo']}
         </div>
 
@@ -359,4 +362,4 @@ with open(
 
     f.write(html)
 
-print(f"Total: {len(noticias)}")
+print(f"Total de notícias encontradas: {len(noticias)}")
