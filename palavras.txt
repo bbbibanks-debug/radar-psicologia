@@ -67,7 +67,6 @@ clínica
 psicometria
 diagnóstico
 anamnese
-entrevista
 observação
 empirismo
 epistemologia
@@ -227,8 +226,6 @@ subjetividade
 intersubjetividade
 individuação
 self
-si-mesmo
-ego
 superego
 inconsciente
 pré-consciente
@@ -279,7 +276,6 @@ arquétipo
 inconsciente coletivo
 persona
 sombra
-anima
 animus
 grande mãe
 velho sábio
@@ -444,8 +440,7 @@ fobia específica
 agorafobia
 pânico
 ansiedade generalizada
-TAG
-TOC
+transtorno
 colecionismo
 silogomania
 dismorfia corporal
@@ -520,23 +515,12 @@ caudado
 accumbens
 amígdala
 hipocampo
-fórnix
-corpo
-caloso
-quiasma
-óptico
-trato
-olfatório
-bulbo
-ponte
 mesencéfalo
-teto
 tegmento
 mielina
 ranvier
 axônio
 dendrito
-corpo celular
 vesícula
 sináptica
 fenda
@@ -789,10 +773,6 @@ rigidez
 roda denteada
 bradicinesia
 acinesia
-instabilidade postural
-marcha festinante
-congelamento
-congelamento da marcha
 micrografia
 hipomimia
 sialorréia
@@ -873,8 +853,7 @@ radicais livres
 disfunção mitocondrial
 excitotoxicidade
 glutamato em excesso
-receptor NMDA
-AMPA
+receptor
 kainato
 influxo de cálcio
 apoptose neuronal
@@ -1160,34 +1139,9 @@ contingência de reforço
 antecedente
 comportamento
 consequência
-tríplice contingência
-operante verbal
-tato
-ecoico
-intraverbal
-treino de tentativas discretas
-DTT
-ensino naturalístico
-análise de tarefas
-fading
-avaliação funcional do comportamento
-observação direta
-registro ABC
-intervenção baseada na função
-extinção de comportamento
-reforço diferencial
-generalização de estímulos
-generalização de respostas
-manutenção do comportamento
-ambiente natural
+intervenção
 engajamento
-motivação intrínseca
-motivação extrínseca
-avaliação de preferência
-reforçador primário
-reforçador secundário
-condicionado
-generalizado
+motivação
 psicanálise
 psicodinâmica
 freudiano
@@ -1334,37 +1288,15 @@ grande Outro
 pequeno outro
 imaginário
 simbólico
-real
-RSI
-nó borromeano
 significante
 significado
-cadeia significante
-primado do significante
 metáfora
 metonímia
 desejo
-desejo do Outro
-causa do desejo
-mais-de-gozar
 gozo
-gozo fálico
-gozo do Outro
-mais-além do princípio do prazer
-grafo do desejo
-fórmulas da sexuação
-discursos de Lacan
-discurso do mestre
-discurso da histérica
-discurso do universitário
-discurso do analista
-discurso do capitalista
+discurso
 sintoma
 sinthome
-nó desfeito
-passe
-escola lacaniana
-cartel
 associação livre
 regra fundamental
 atenção flutuante
@@ -1528,11 +1460,7 @@ falta de sentido
 liberdade e responsabilidade
 análise do caráter
 Wilhelm Reich
-couraça muscular
-couraça caracterológica
-anéis de couraça
-ocular
-oral
+couraça 
 cervical
 torácico
 diafragmático
