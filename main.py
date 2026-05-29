@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from datetime import datetime
+from zoneinfo import ZoneInfo
 import unicodedata
 import re
 
@@ -264,10 +265,12 @@ noticias.sort(
 
 
 # =========================
-# DATA
+# DATA - BRASÍLIA
 # =========================
 
-data = datetime.now().strftime(
+data = datetime.now(
+    ZoneInfo("America/Sao_Paulo")
+).strftime(
     "%d/%m/%Y %H:%M:%S"
 )
 
@@ -339,7 +342,7 @@ a:hover {{
 <h1>Radar Psicologia</h1>
 
 <div class="data">
-Atualizado em {data}
+Atualizado em {data} (Horário de Brasília)
 </div>
 """
 
